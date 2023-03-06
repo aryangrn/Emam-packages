@@ -16,12 +16,10 @@ source=('fetch' 'sfetch' 'sysinfo' 'sysinfo-retro' 'starship')
 md5sums=('3395ca0cacfe0cde9752cd9fb87f9a46'
          '2bd9d8a8389a7955d628acad475ee130'
          '64265fb138b762c468dde4a84f678bd9'
-         'edd0d56f7d532196196d8c5726d9aa32'
-         '1096b8bc6a218ac946ed9ed99c545d89')
+         'edd0d56f7d532196196d8c5726d9aa32')
 package() {
 	install -Dm 755 fetch   		${pkgdir}/usr/local/bin/fetch
 	install -Dm 755 sfetch   		${pkgdir}/usr/local/bin/sfetch
 	install -Dm 755 sysinfo   		${pkgdir}/usr/local/bin/sysinfo
 	install -Dm 755 sysinfo-retro   		${pkgdir}/usr/local/bin/sysinfo-retro
-	install -Dm 755 starship   		${pkgdir}/usr/bin/starship
 }
