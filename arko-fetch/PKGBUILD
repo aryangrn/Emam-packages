@@ -12,7 +12,7 @@ depends=()
 conflicts=()
 provides=("${pkgname}")
 #options=(!strip !emptydirs)
-source=('fetch' 'sfetch' 'sysinfo' 'sysinfo-retro' 'starship')
+source=('fetch' 'sfetch' 'sysinfo' 'sysinfo-retro')
 md5sums=('3395ca0cacfe0cde9752cd9fb87f9a46'
          '2bd9d8a8389a7955d628acad475ee130'
          '64265fb138b762c468dde4a84f678bd9'
