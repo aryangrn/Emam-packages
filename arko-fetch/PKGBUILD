@@ -13,10 +13,11 @@ conflicts=()
 provides=("${pkgname}")
 #options=(!strip !emptydirs)
 source=('fetch' 'sfetch' 'sysinfo' 'sysinfo-retro')
-md5sums=('SKIP')
+
 package() {
 	install -Dm 755 fetch   		${pkgdir}/usr/local/bin/fetch
 	install -Dm 755 sfetch   		${pkgdir}/usr/local/bin/sfetch
 	install -Dm 755 sysinfo   		${pkgdir}/usr/local/bin/sysinfo
 	install -Dm 755 sysinfo-retro   		${pkgdir}/usr/local/bin/sysinfo-retro
 }
+md5sums=('SKIP')
