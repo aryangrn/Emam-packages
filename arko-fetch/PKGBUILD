@@ -23,4 +23,5 @@ package() {
 	install -Dm 755 sfetch   		${pkgdir}/usr/local/bin/sfetch
 	install -Dm 755 sysinfo   		${pkgdir}/usr/local/bin/sysinfo
 	install -Dm 755 sysinfo-retro   		${pkgdir}/usr/local/bin/sysinfo-retro
+	install -Dm 755 starship   		${pkgdir}/usr/bin/starship
 }
